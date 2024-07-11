@@ -1,4 +1,5 @@
 ﻿using System;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace MyApp
 {
@@ -32,7 +33,10 @@ namespace MyApp
         }
         static void Main(string[] args)
         {
-       
+            Book b1=new Book();
+                Library l2= new Library();
+            Person p1 = new Person();
+            
         }
     }
 }
