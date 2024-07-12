@@ -1,60 +1,183 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApplication12
+namespace MyApp
 {
-    class Program
+    internal class Program
     {
-        //function for fibonacci_Series
-        static void fibonacci_Series(int num)
+        static void Main(string[] args)
         {
-
-            int f1 = 0, f2 = 1, f3 = 0;
-            for (int i = 0; i <= num; i++)
+            Console.WriteLine("Please choice option: ");
+            int option = Convert.ToInt32(Console.ReadLine());
+            switch (option)
             {
-                f3 = f1 + f2;//finding the sum 
-                Console.WriteLine(f3);
-                f1 = f2;//shifting the values 
-                f2 = f3;//shifting the values 
+                case 1:
+                    Console.WriteLine("You have selected option 1");
+                    ArmStrong();
+                    break;
+                case 2:
+                    Console.WriteLine("You have selected option 2");
+                    Console.WriteLine("Enter number to find Fibonacci Sequence ");
+                    int Length = Convert.ToInt32(Console.ReadLine());
+                    Fibonacci_sequence(Length);
+                    break;
+                case 3:
+                    Console.WriteLine("You have selected option 3");
+                    Positive_Negative_SumAndAverage();
+                    break;
+                case 4:
+                    Console.WriteLine("You have selected option 4");
+                    Zero_Placement();
+                    break;
+                case 5:
+                    Console.WriteLine("You have selected option 5");
+                    LSNumber();
+                    break;
+                case 6:
+                    Console.WriteLine("You have selected option 6");
+                    duplication();
+                    break;
+
+                case 7:
+                    Non_Repeating();
+                    break;
+
+
+                default:
+                    Console.WriteLine("Please choice right option");
+                    break;
+
             }
 
-            Console.ReadLine();
+        }
+        //Positive_Negative_SumAndAverage function
+
+        static void Positive_Negative_SumAndAverage()
+        {
+            Console.WriteLine("Enter the range of input to be give");
+            int Length_array = Convert.ToInt32(Console.ReadLine());//taking input for the length of array
+            int[] array = new int[Length_array];
+            Console.WriteLine("Enter " + Length_array + " numbers");
+            for (int i = 0; i < Length_array; i++)
+            {
+                array[i] = Convert.ToInt32(Console.ReadLine());
+
+            }
+            int Positive = 0, Negaitive = 0, Sum = 0;
+            Double Average = 0;//in the form of decimal
+            for (int j = 0; j < array.Length; j++)
+            {
+                if (array[j] > 0) { Positive = Positive + 1; }
+                else { Negaitive = Negaitive + 1; }
+                Sum = Sum + array[j];
+                Average = Sum / array.Length;
+            }
+
+            Console.WriteLine("Sum: " + Sum);
+            Console.WriteLine("No of Positive: " + Positive);
+            Console.WriteLine("No of Negative: " + Negaitive);
+            Console.Write("Average: " + Average);
         }
 
-        // function to find the largest and second largest number
-
-        static void Largest_secondNumber()
+        static void Zero_Placement()
         {
-            int[] array = { 2, 3, 14, 1, 6, 5, 9 };
-            int largest_number = 0;
-            int SLargest_number = -1;
+            Console.WriteLine("the given array is {1,2,0,5,0,9}");
+            int[] array = { 1, 2, 0, 5, 0, 9 };
+            int count = 0;
 
+            // Move non-zero elements to the beginning of the array
             for (int i = 0; i < array.Length; i++)
             {
-                if (array[i] > largest_number)
+                if (array[i] != 0)
                 {
-                    SLargest_number = largest_number;// Update second largest with previous largest
-                    largest_number = array[i]; // Update largest number
-
+                    array[count++] = array[i];
                 }
-                else if (array[i] > SLargest_number && array[i] != largest_number)
-                {
-                    SLargest_number = array[i]; // Update second largest if found a new candidate
-                }
-
             }
-            Console.WriteLine("largest number:" + largest_number);
-            Console.WriteLine("Second number:" + SLargest_number);
-            Console.ReadLine();
+
+            // Fill the rest of the array with zeros
+            while (count < array.Length)
+            {
+                array[count++] = 0;
+            }
+
+            // Print the modified array
+            for (int i = 0; i < array.Length; i++)
+            {
+                Console.WriteLine(array[i]);
+            }
+        }
+        //armstrong number function
+        static void ArmStrong()
+        {
+            Console.WriteLine("Enter a number to check wether its a armstrong number: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            int sum = 0;
+            for (int i = n; i > 0; i = i / 10)//we will keep orgianl number and checking the condition
+            {
+                int reminder = i % 10;
+                sum = sum + (reminder * reminder * reminder);//finding the cube root and adding them 
+            }
+
+            if (sum == n)//checking the sum and the orignal number 
+            {
+                Console.WriteLine(n + " is armstrong number");
+            }
+            else
+            {
+                Console.WriteLine("The given number is not a armstrong number");
+            }
         }
 
-        //Duplication
-        static void Duplication()
+        //non repeating number
+        static void Non_Repeating()
         {
-            int[] Orginal_Array = { 2, 2, 3, 8, 5, 9, 3 };
+            Console.WriteLine("Enter a String:");
+            string wordInput = Console.ReadLine();
+            char firstNonRepeatingChar = '\0';
+            int[] charCount = new int[256]; // Assuming ASCII characters
+
+            // Count the occurrences of each character
+            for (int i = 0; i < wordInput.Length; i++)
+            {
+                char ch = wordInput[i];
+                charCount[ch]++;
+            }
+
+            // Find the first non-repeating character
+            for (int i = 0; i < wordInput.Length; i++)
+            {
+                char ch = wordInput[i];
+                if (charCount[ch] == 1)
+                {
+                    firstNonRepeatingChar = ch;
+                    break;
+                }
+            }
+
+            if (firstNonRepeatingChar != '\0')
+            {
+                Console.WriteLine("The first not repeating is: " + firstNonRepeatingChar);
+            }
+            else
+            {
+                Console.WriteLine("There is no non-repeating character.");
+            }
+        }
+
+
+
+
+        //remove duplication
+        static void duplication()
+        {
+            Console.WriteLine("Enter the range of input to be give");
+            int Length_array = Convert.ToInt32(Console.ReadLine());//taking input for the length of array
+            int[] Orginal_Array = new int[Length_array];
+            Console.WriteLine("Enter " + Length_array + " numbers");
+            for (int k = 0; k < Length_array; k++)
+            {
+                Orginal_Array[k] = Convert.ToInt32(Console.ReadLine());
+
+            }
             int[] Temp_Array = new int[Orginal_Array.Length]; // Initialize Temp_Array with the same length as Orginal_Array
             int j = 0;
 
@@ -91,78 +214,58 @@ namespace ConsoleApplication12
             for (int i = 0; i < j; i++)
             {
                 Console.WriteLine(Orginal_Array[i]);
-
             }
-            Console.ReadLine();
         }
 
-        //function for zero at the end
-        static void zero()
-        {
-            int[] array = { 1, 0, 9, 7 };
-            int count = 0;
 
-            // Move non-zero elements to the beginning of the array
-            for (int i = 0; i < array.Length; i++)
+        //first and second largest number
+        static void LSNumber()
+        {
+            Console.WriteLine("Enter the range of input to be give");
+            int Length_array = Convert.ToInt32(Console.ReadLine());//taking input for the length of array
+            int[] array = new int[Length_array];
+            Console.WriteLine("Enter " + Length_array + " numbers");
+            for (int i = 0; i < Length_array; i++)
             {
-                if (array[i] != 0)
+                array[i] = Convert.ToInt32(Console.ReadLine());
+
+            }
+
+            int largest_number = array[0];
+            int second_largest = -1;
+
+            for (int i = 1; i < array.Length; i++)
+            {
+                if (array[i] > largest_number)
                 {
-                    array[count++] = array[i];
+                    second_largest = largest_number; // Update second largest with previous largest
+                    largest_number = array[i]; // Update largest number
+                }
+                else if (array[i] > second_largest && array[i] != largest_number)
+                {
+                    second_largest = array[i]; // Update second largest if found a new candidate
                 }
             }
 
-            // Fill the rest of the array with zeros
-            while (count < array.Length)
-            {
-                array[count++] = 0;
-            }
-
-            // Print the modified array
-            for (int i = 0; i < array.Length; i++)
-            {
-                Console.WriteLine(array[i]);
-            }
-            Console.ReadLine();
+            Console.WriteLine("The Largest number : " + largest_number);
+            Console.WriteLine("The Second largest number: " + second_largest);
         }
 
-        static void Main(string[] args)
+        //Fibonacci_sequence function
+        static void Fibonacci_sequence(int length)
         {
-            int option;
-            do
+            int num1 = 0, num2 = 1, num3 = 0;
+            for (int i = 2; i < length; i++)
             {
 
-                Console.WriteLine("1- To find fibonacci series ");
-                Console.WriteLine("2- To find Largest and second largest number ");
-                Console.WriteLine("3- To Ruplication from array ");
-                Console.WriteLine("4- Place zeros at the end of array ");
-                string userInput = Console.ReadLine();
-                option = int.Parse(userInput);
-                switch (option)
-                {
-                    case 1:
-                        Console.Write("enter number find fibonacci series");
-                        int Userinput = int.Parse(Console.ReadLine());
-                        fibonacci_Series(Userinput);//calling the function 
-                        break;
-                    case 2:
-                        Largest_secondNumber();
-                        break;
-                    case 3:
-                        Duplication();
-                        break;
-                    case 4:
-                        zero();
-                        break;
-                    default:
-                        Console.WriteLine("Invalid option selected.");
-                        break;
-                }
+                num3 = num1 + num2;
+                Console.Write(num3);
+                num1 = num2;
+                num2 = num3;
 
-                Console.WriteLine();
 
-            } while (option != 4); // loop will Continue until user select 12
+            }
         }
 
     }
-
 }
