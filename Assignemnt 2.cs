@@ -12,34 +12,39 @@ namespace MyApp
             {
                 case 1:
                     Console.WriteLine("You have selected option 1");
-                    ArmStrong();
+                    ArmStrong();//callling method to find arm strong number
                     break;
                 case 2:
                     Console.WriteLine("You have selected option 2");
                     Console.WriteLine("Enter number to find Fibonacci Sequence ");
                     int Length = Convert.ToInt32(Console.ReadLine());
-                    Fibonacci_sequence(Length);
+                    Fibonacci_sequence(Length);// method to find  the fibonacci sequence
                     break;
                 case 3:
                     Console.WriteLine("You have selected option 3");
-                    Positive_Negative_SumAndAverage();
+                    Positive_Negative_SumAndAverage();//calling function to find the number of +ive and -ive element in arrayand find the sum and average of it
                     break;
                 case 4:
                     Console.WriteLine("You have selected option 4");
-                    Zero_Placement();
+                    Zero_Placement();//calling function to call the method that will place the zeros at the end 
                     break;
                 case 5:
                     Console.WriteLine("You have selected option 5");
-                    LSNumber();
+                    LSNumber();// calling function to find largest and second largest number in array
                     break;
                 case 6:
                     Console.WriteLine("You have selected option 6");
-                    duplication();
+                    duplication();// calling function to call the method that remove duplication
                     break;
 
                 case 7:
-                    Non_Repeating();
+                    Non_Repeating();//calling function to display non repeating word 
                     break;
+                case 8:
+                    merge_sortedArray();//caling function to merge sorted array
+                case 9:
+                    Missing_Number();
+
 
 
                 default:
@@ -50,6 +55,47 @@ namespace MyApp
 
         }
         //Positive_Negative_SumAndAverage function
+
+        static void Missing_Number()
+        {
+            int min = int.MaxValue;
+            int max = int.MinValue;
+
+            Console.WriteLine("Enter the number of elements in the array:");
+            int Length_array = Convert.ToInt32(Console.ReadLine());
+            int[] array = new int[Length_array];
+
+            Console.WriteLine($"Enter {Length_array} numbers:");
+            for (int i = 0; i < Length_array; i++)
+            {
+                array[i] = Convert.ToInt32(Console.ReadLine());
+
+                // Update min and max
+                if (array[i] < min)
+                {
+                    min = array[i];
+                }
+                if (array[i] > max)
+                {
+                    max = array[i];
+                }
+            }
+
+            // Find the missing consecutive number
+            int missingNumber = -1;
+            for (int i = min; i <= max; i++)
+            {
+                if (Array.IndexOf(array, i) == -1)
+                {
+                    missingNumber = i;
+                    break;
+                }
+            }
+
+            Console.WriteLine($"The missing consecutive number is: {missingNumber}");
+        
+        }
+    
 
         static void Positive_Negative_SumAndAverage()
         {
@@ -163,6 +209,52 @@ namespace MyApp
             }
         }
 
+      //  function  for merging storted array
+        static void merge_sortedArray()
+        {
+            Console.WriteLine("Enter the lenth of first array: ");
+            int n = Convert.ToInt32(Console.ReadLine());
+            int[] array = new int[n];
+            Console.WriteLine("--------------Array 1---------------");
+            Console.WriteLine("enter the element in array1: ");
+            for (int i = 0; i < n; i++)
+            {
+                array[i] = Convert.ToInt32(Console.ReadLine());
+            }
+
+            Console.WriteLine("Enter the length of array 2:");
+            int n2 = Convert.ToInt32(Console.ReadLine());
+            int[] array2 = new int[n2];
+            Console.WriteLine("--------------Array 2---------------");
+            Console.WriteLine("enter the element in array1: ");
+            for (int j = 0; j < n2; j++)
+            {
+                array2[j] = Convert.ToInt32(Console.ReadLine());
+            }
+            int n3 = array.Length + array2.Length;
+            int[] temp = new int[n3];
+
+            // Copy elements from array to temp
+            for (int k = 0; k < array.Length; k++)
+            {
+                temp[k] = array[k];
+            }
+
+            // Copy elements from array2 to temp, starting after the end of array
+            for (int l = 0; l < array2.Length; l++)
+            {
+                temp[array.Length + l] = array2[l];
+            }
+
+            // Sort the merged array
+            Array.Sort(temp);
+
+            // Print the sorted array
+            for (int m = 0; m < n3; m++)
+            {
+                Console.WriteLine(temp[m]);
+            }
+        }
 
 
 
