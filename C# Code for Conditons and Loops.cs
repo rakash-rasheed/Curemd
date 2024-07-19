@@ -6,7 +6,7 @@ namespace Programming_Lecture
     {
         static void Main(string[] args)
         {
-            /*
+            
             Console.WriteLine("Hello Programmers!");
             
              Example 0: User input
@@ -18,7 +18,7 @@ namespace Programming_Lecture
                 Console.WriteLine("You passed");
             }
 
-            // Example 1: If statement
+            //// Example 1: If statement
             int num = 10;
 
             if (num > 0)
@@ -60,7 +60,7 @@ namespace Programming_Lecture
             {
                 Console.WriteLine("Grade: F");
             }
-            */
+            
 
             //// Example 4: Switch Case statement
             //int dayOfWeek = 3;

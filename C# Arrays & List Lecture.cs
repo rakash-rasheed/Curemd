@@ -80,7 +80,7 @@ namespace Programming_Lecture
 
             // Example 4: Replace characters
             Console.WriteLine("Enter a character to replace:");
-            char charToReplace = Convert.ToChar(Console.ReadLine());
+            char charToReplace = Convert.ToChar(Console.ReadLine()); //Tochar('c')
             Console.WriteLine("Enter a replacement character:");
             char replacementChar = Convert.ToChar(Console.ReadLine());
             manipulatedString = originalString.Replace(charToReplace, replacementChar);
