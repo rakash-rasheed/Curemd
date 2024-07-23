@@ -1,0 +1,108 @@
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\bin\Debug\net6.0\appsettings.json
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.exe
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.deps.json
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.runtimeconfig.json
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.dll
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.pdb
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.csproj.AssemblyReference.cache
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.AssemblyInfoInputs.cache
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.AssemblyInfo.cs
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.csproj.CoreCompileInputs.cache
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\staticwebassets\msbuild.Web_API_Lecture.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\staticwebassets\msbuild.build.Web_API_Lecture.props
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Web_API_Lecture.props
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Web_API_Lecture.props
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\scopedcss\bundle\Web_API_Lecture.styles.css
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.csproj.CopyComplete
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.dll
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\refint\Web_API_Lecture.dll
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.pdb
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.genruntimeconfig.cache
+C:\Users\anosha.batool\source\repos\Web_API_Lecture\obj\Debug\net6.0\ref\Web_API_Lecture.dll
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.csproj.AssemblyReference.cache
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.AssemblyInfoInputs.cache
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.AssemblyInfo.cs
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.csproj.CoreCompileInputs.cache
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.MvcApplicationPartsAssemblyInfo.cs
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.MvcApplicationPartsAssemblyInfo.cache
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.pdb
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\appsettings.Development.json
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\appsettings.json
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.exe
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.deps.json
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.runtimeconfig.json
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.dll
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.pdb
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\staticwebassets\msbuild.Web_API_Lecture.Microsoft.AspNetCore.StaticWebAssets.props
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\staticwebassets\msbuild.build.Web_API_Lecture.props
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Web_API_Lecture.props
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Web_API_Lecture.props
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\staticwebassets.pack.json
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\staticwebassets.build.json
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\staticwebassets.development.json
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\scopedcss\bundle\Web_API_Lecture.styles.css
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.csproj.CopyComplete
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.dll
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\refint\Web_API_Lecture.dll
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.genruntimeconfig.cache
+C:\BootCamp\Bootcamp 5\Web_API_Lecture\Web_API_Lecture\obj\Debug\net6.0\ref\Web_API_Lecture.dll
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\appsettings.json
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.exe
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.deps.json
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.runtimeconfig.json
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.dll
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\Web_API_Lecture.pdb
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.csproj.AssemblyReference.cache
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.AssemblyInfoInputs.cache
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.AssemblyInfo.cs
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.csproj.CoreCompileInputs.cache
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\staticwebassets\msbuild.Web_API_Lecture.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\staticwebassets\msbuild.build.Web_API_Lecture.props
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Web_API_Lecture.props
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Web_API_Lecture.props
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\scopedcss\bundle\Web_API_Lecture.styles.css
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.csproj.CopyComplete
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.dll
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\refint\Web_API_Lecture.dll
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.pdb
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\Web_API_Lecture.genruntimeconfig.cache
+C:\Users\hashim.javed\Documents\CureMD Docs\BootCamp\Bootcamp 5\SQL\Web_API_Lecture\obj\Debug\net6.0\ref\Web_API_Lecture.dll
